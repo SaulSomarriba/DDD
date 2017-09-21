@@ -1,0 +1,10 @@
+C:\DDD1\DDD\DDD.Dominio\bin\Debug\DDD.Dominio.dll
+C:\DDD1\DDD\DDD.Dominio\bin\Debug\DDD.Dominio.pdb
+C:\DDD1\DDD\DDD.Dominio\obj\Debug\DDD.Dominio.dll
+C:\DDD1\DDD\DDD.Dominio\obj\Debug\DDD.Dominio.pdb
+C:\Users\Saúl\Documents\projects\DDD1\DDD\DDD.Dominio\bin\Debug\DDD.Dominio.dll
+C:\Users\Saúl\Documents\projects\DDD1\DDD\DDD.Dominio\bin\Debug\DDD.Dominio.pdb
+C:\Users\Saúl\Documents\projects\DDD1\DDD\DDD.Dominio\obj\Debug\DDD.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Saúl\Documents\projects\DDD1\DDD\DDD.Dominio\obj\Debug\DDD.Dominio.dll
+C:\Users\Saúl\Documents\projects\DDD1\DDD\DDD.Dominio\obj\Debug\DDD.Dominio.pdb
+C:\Users\Saúl\Documents\projects\DDD1\DDD\DDD.Dominio\obj\Debug\DDD.Dominio.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+C:\Users\Saúl\Documents\projects\DDD1\DDD\DDD.Aplicacion\bin\Debug\DDD.Aplicacion.dll
+C:\Users\Saúl\Documents\projects\DDD1\DDD\DDD.Aplicacion\bin\Debug\DDD.Aplicacion.pdb
+C:\Users\Saúl\Documents\projects\DDD1\DDD\DDD.Aplicacion\obj\Debug\DDD.Aplicacion.csprojResolveAssemblyReference.cache
+C:\Users\Saúl\Documents\projects\DDD1\DDD\DDD.Aplicacion\obj\Debug\DDD.Aplicacion.csproj.CoreCompileInputs.cache
+C:\Users\Saúl\Documents\projects\DDD1\DDD\DDD.Aplicacion\obj\Debug\DDD.Aplicacion.dll
+C:\Users\Saúl\Documents\projects\DDD1\DDD\DDD.Aplicacion\obj\Debug\DDD.Aplicacion.pdb
