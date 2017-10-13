@@ -8,46 +8,48 @@ using System.Threading.Tasks;
 
 namespace DDD.Dominio.Entidad
 {
-    [Table("Bancos")]
+    [Table("bancos")]
     public class Banco
     {
-        Banco()
-        {
-            Active = true;
-        }
-
         [Key]
         public int Id { get; set; }
 
-        [Required(ErrorMessage = "Se requiere la {0}")]
-        [Display(Name = "Abreviación")]
-        public string Acronym { get; set; }
+        [Required(ErrorMessage = "Se requiere la abreviatura del Banco")]
+        [Display(Name = "Abreviatura")]
+        public string ACRONYMS { get; set; }
 
-        [Required(ErrorMessage = "Se requiere el {0}")]
+        [Required(ErrorMessage = "Se requiere el nombre del Banco")]
         [Display(Name = "Nombre")]
         public string Name { get; set; }
 
-        [Required(ErrorMessage = "Se requiero seleccionar el tipo de banco")]
+        [Required(ErrorMessage = "Se requiere seleccionar el Tipo de Banco")]
         [Display(Name = "Tipo de Banco")]
         public int TipoBancoId { get; set; }
 
 
-        //Campos de control
-        [Display(Name = "Activo")]
-        public bool Active { get; set; }
 
+
+
+        [Display(Name = "Activo")]
         [Required]
-        [DataType(DataType.Date)]
+        public bool Active { get; set; }
+        
         [ScaffoldColumn(false)]
+        [DataType(DataType.Date)]
+        [Required]
         public DateTime DateCreation { get; set; }
 
-        [Required]
-        [DataType(DataType.Date)]
         [ScaffoldColumn(false)]
+        [DataType(DataType.Date)]
+        [Required]
         public DateTime DateModification { get; set; }
+
+
+
+
 
         [ForeignKey("TipoBancoId")]
         public virtual TipoBanco TipoBancos { get; set; }
-        
-}
+    }
+
 }

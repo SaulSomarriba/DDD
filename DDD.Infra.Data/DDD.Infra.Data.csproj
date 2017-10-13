@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5C186300-C83F-429B-AFAB-609C78665E9B}</ProjectGuid>
+    <ProjectGuid>{7FCC9E36-F617-4A77-8630-62EF7349C075}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DDD.Infra.Data</RootNamespace>
@@ -50,16 +50,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Contexto\ModeloContexto.cs" />
+    <Compile Include="EntityConfig\BancoConfiguration.cs" />
+    <Compile Include="EntityConfig\TipoBancoConfiguration.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositorios\BancoRepository.cs" />
+    <Compile Include="Repositorios\RepositoryBase.cs" />
+    <Compile Include="Repositorios\TipoBancoRepository.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="EntityConfig\" />
-    <Folder Include="Repositorios\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\DDD.Dominio\DDD.Dominio.csproj">
-      <Project>{52fe19fd-915f-418d-8a01-097f7875ad93}</Project>
+      <Project>{2df32d52-8cbf-4f02-854b-5c3d447aafb8}</Project>
       <Name>DDD.Dominio</Name>
     </ProjectReference>
   </ItemGroup>

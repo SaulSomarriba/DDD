@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{60D390F7-4B6F-4063-993F-110AE7504025}</ProjectGuid>
+    <ProjectGuid>{35613B52-55D3-418A-9470-613EBFC701B1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DDD.Aplicacion</RootNamespace>
@@ -40,8 +40,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppService\AppServiceBase.cs" />
+    <Compile Include="AppService\BancoAppService.cs" />
+    <Compile Include="AppService\TipoBancoAppService.cs" />
+    <Compile Include="Interface\IAppServiceBase.cs" />
+    <Compile Include="Interface\IBancoAppService.cs" />
+    <Compile Include="Interface\ITipoBancoAppService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DDD.Dominio\DDD.Dominio.csproj">
+      <Project>{2df32d52-8cbf-4f02-854b-5c3d447aafb8}</Project>
+      <Name>DDD.Dominio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{52FE19FD-915F-418D-8A01-097F7875AD93}</ProjectGuid>
+    <ProjectGuid>{2DF32D52-8CBF-4F02-854B-5C3D447AAFB8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DDD.Dominio</RootNamespace>
@@ -43,12 +43,18 @@
   <ItemGroup>
     <Compile Include="Entidad\Banco.cs" />
     <Compile Include="Entidad\TipoBanco.cs" />
+    <Compile Include="Interface\Repositories\IBancoRepository.cs" />
+    <Compile Include="Interface\Repositories\IRepositoryBase.cs" />
+    <Compile Include="Interface\Repositories\ITipoBancoRepository.cs" />
+    <Compile Include="Interface\Services\IBancoService.cs" />
+    <Compile Include="Interface\Services\IServiceBase.cs" />
+    <Compile Include="Interface\Services\ITipoBancoService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Servicio\BancoService.cs" />
+    <Compile Include="Servicio\ServiceBase.cs" />
+    <Compile Include="Servicio\TipoBancoService.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Interface\" />
-    <Folder Include="Servicio\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
